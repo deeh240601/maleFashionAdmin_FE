@@ -1,0 +1,79 @@
+{
+  "name": "male-fashion",
+  "version": "3.2.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/cache": "^11.9.3",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/lab": "^5.0.0-alpha.88",
+    "@mui/material": "^5.8.6",
+    "@mui/styles": "^5.8.6",
+    "@mui/system": "^5.8.6",
+    "@mui/utils": "^5.8.6",
+    "@mui/x-data-grid": "^5.17.5",
+    "@reduxjs/toolkit": "^1.8.5",
+    "@tabler/icons": "^1.72.0",
+    "apexcharts": "^3.35.3",
+    "axios": "^0.27.2",
+    "env-cmd": "^10.1.0",
+    "formik": "^2.2.9",
+    "framer-motion": "^6.3.16",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "material-ui-color-picker": "^3.5.1",
+    "material-ui-popup-state": "^4.0.1",
+    "nanoid": "^4.0.0",
+    "prop-types": "^15.8.1",
+    "query-string": "^7.1.1",
+    "react": "^18.2.0",
+    "react-apexcharts": "^1.4.0",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "6.3.0",
+    "react-scripts": "^5.0.1",
+    "redux-persist": "^6.0.0",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "dev": "env-cmd -f ./enviroments/.env.dev react-scripts start",
+    "prod": "env-cmd -f .env.prod react-scripts start",
+    "build-dev": "env-cmd -f ./enviroments/.env.dev react-scripts build",
+    "build-prod": "env-cmd -f .env.prod react-scripts build",
+    "build": "env-cmd -f ./enviroments/.env.prod react-scripts build",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      "defaults",
+      "not IE 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/preset-react": "^7.18.6",
+    "sass": "^1.53.0"
+  }
+}

@@ -1,0 +1,5 @@
+export const VOUCHER_STATUS = {
+    NON_START: 'NON_START',
+    HAPPENING: 'HAPPENING',
+    OVER: 'OVER'
+};
